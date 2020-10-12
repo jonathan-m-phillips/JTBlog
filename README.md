@@ -16,3 +16,13 @@
 1. `git branch -r`
 2. `git branch`
 3. Compare remote branches to local branches. Pull as needed.
+
+#### Pushing, Pulling and Committing 
+
+* Checkout a branch to work on. 
+* Once work is complete, commit and push changes on that branch.
+* After pushing, checkout build branch and enter `git merge branch_name_of_branch_being_merged_in`
+* Run project in the build branch to test function.
+* DO NOT make changes in build branch. Check out corresponding branch for changes and repeat process.
+* Once work is complete for the day, check with other actively working members prior to merging the build branch into the master branch.
+* Immediately report merge conflicts
